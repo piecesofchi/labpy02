@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labpy02</title>
+</head>
+<body>
+    <h1>Membuat program nilai akhir</h1>
+    <p>nama = input("Masukkan nama:")
+        uts = input("Masukkan nilai UTS:")
+        uas = input("Masukkan nilai UAS:")
+        tugas = input("Masukkan nilai Tugas:")
+        akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+        keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+        if akhir > 80:
+            huruf = "A"
+        elif akhir > 70:
+            huruf = "B"
+        elif akhir > 50:
+            huruf = "C"
+        elif akhir > 40:
+            huruf = "D"
+        else:
+        huruf = "E"
+        print("\nNama :",nama)
+        print("Nilai UTS :",uts)
+        print("Nilai UAS :",uas)
+        print("Nilai Tugas :",tugas)
+        print("Nilai Akhir :",akhir)
+        print("\nNilai Huruf :",huruf)
+        print("Keterangan :",keterangan)</p>
+</body>
+</html>
